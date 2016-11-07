@@ -9,7 +9,7 @@ Prerequisitos:
 Compilación:
 
 - Clonar el proyecto (git clone https://github.com/EParedez/calculadora-swift.git)
-- Desde el path del proyecto clonado, ejecutar :
+- Desde el path del proyecto clonado, abrimos la terminal y ejecutamos:
   * swiftc -emit-library Operacion.swift -module-name operacion
   * swiftc -emit-module -module-name operacion Operacion.swift
   * swiftc -I. -c Calculadora.swift
